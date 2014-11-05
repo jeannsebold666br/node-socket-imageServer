@@ -1,0 +1,18 @@
+{
+  "name": "imageServer",
+  "version": "0.0.1",
+  "description": "A simple POC for socket.io to read image from Mysql and push to each client when connected",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robin Nayathodan <rnayathodan@gmail.com>",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "q": "^1.0.1",
+    "mysql": "^2.5.2",
+    "socket.io": "^1.2.0",
+    "express": "^4.10.1"
+  }
+}
