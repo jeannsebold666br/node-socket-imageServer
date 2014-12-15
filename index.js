@@ -25,7 +25,7 @@ var conn=mysql.createConnection(
 
 var getImage=function(){
   var d=Q.defer();
-  conn.query("select image from images limit 1", function(err, result, fields){
+  conn.query("select image from images limit 1", function(err, result){
       //Check if there is image
       if(result.length<=0){
         return d.reject("No Image Available");
